@@ -18,3 +18,7 @@
 + (NSMutableArray <HomePageModel *>*)loadData:(NSArray *)data;
 
 @end
+
+/*
+  Model的职责:原始数据的解析以及包装
+ */
