@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  MVVM
+
+  Created by 郑冰津 on 2017/4/6.
+  Copyright © 2017年 JMKJ. All rights reserved.
+*/
+"HomePage" = "首页";
+"Mine" = "我的";
+"Article" = "文章";
+"Community" = "社区";

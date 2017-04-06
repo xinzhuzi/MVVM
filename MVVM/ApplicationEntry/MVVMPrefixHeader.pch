@@ -1,0 +1,38 @@
+//
+//  MVVMPrefixHeader.pch
+//  MVVM
+//
+//  Created by 郑冰津 on 2017/4/6.
+//  Copyright © 2017年 JMKJ. All rights reserved.
+//
+
+#ifndef MVVMPrefixHeader_pch
+#define MVVMPrefixHeader_pch
+
+#pragma mark --------------- System framework --------------
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#pragma mark --------------- Third Part --------------
+#import "MJRefresh/MJRefresh.h"
+#import "ReactiveObjC/ReactiveObjC.h"//RAC和YYKit有冲突,需要把RAC的头文件放在YYKit前面
+#import <YYText/YYText.h>
+#import <YYModel/YYModel.h>
+#import <YYWebImage/YYWebImage.h>
+//#import <YYCategories/YYCategories.h>
+//#import <YYDispatchQueuePool/YYDispatchQueuePool.h>
+#import <YYCategories/UIView+YYAdd.h>
+#import <YYCategories/YYCGUtilities.h>
+#import <YYCategories/UIDevice+YYAdd.h>
+#import <YYCategories/UIImage+YYAdd.h>
+
+#import "MBProgressHUD.h"
+
+#pragma mark --------------- Tools --------------
+#import "MVVMMacroHeader.h"
+
+#pragma mark --------------- Custom Category ------------
+//#import "UIView+Category.h"
+//#import "NSString+Category.h"
+
+#endif /* MVVMPrefixHeader_pch */
